@@ -1,0 +1,284 @@
+body, h1, h2, h3, ul, p, a{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#header{
+    background-color: #354449;
+    padding: 15px;
+    border-bottom: 5px solid #CE573B;
+}
+
+#header h2{
+    color: white;
+    font-family: sans-serif;
+    display: inline-block;
+}
+#header .logo{
+    color: #CE573B;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.navbar{
+    float: right;
+}
+
+.navbar li{
+    display: inline;
+}
+
+.navbar li:hover{
+    background-color: cover;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 8px 10px;
+    display: inline-block;
+}
+
+.navbar li a:hover{
+    color: #CE573B ;
+    
+}
+
+#banner{
+    background-image: url('../images/Shop-1.15.19.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+
+#banner h1{
+    padding-top: 130px;
+    padding-bottom: 20px;
+    
+}
+
+#banner p{
+    font-size: 20px;
+}
+
+#newslatter{
+    background-color: #354449;
+    height: 65px;
+   
+}
+
+#newslatter .left{
+    float: left;
+    padding: 16px;
+}
+
+#newslatter .left h3{
+    color: #fff;
+    font-family: sans-serif;
+    padding-top: 6px;
+}
+
+#newslatter .right{
+    float: right;
+    padding-top: 22px;
+}
+
+#newslatter input{
+    border: none;
+    padding: 5px 11px;
+    border-radius: 4px;
+}
+
+#newslatter .right button{
+    background-color: #CE573B;
+    color: #fff;
+    border: none;
+    padding: 5px 9px;
+    margin-left: 9px;
+    border-radius: 4px;
+}
+
+#newslatter .right button:hover{
+    opacity: 0.6;
+    color: #fff;    
+}
+
+#frameworks{
+    padding: 30px;
+    font-family: sans-serif;
+}
+.box{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.box img{
+   max-width: 100%;
+   width: 60px;
+}
+
+.box:nth-child(2) img {
+    width: 68px;
+}
+
+.box:nth-child(3) img {
+    width: 60px;
+}
+
+.box h3{
+    padding: 15px;
+}
+.clr{
+    clear: both;
+}
+
+#footer{
+    background-color: #CE573B;
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+#news .left{
+     width: 60%;
+     float: left;
+     font-family: sans-serif;
+     font-size: 14px;
+}
+
+#news .left .newText{
+    padding:15px 15px;
+    background-color: #354449;
+    margin: 15px 0;
+    color: #ffffff;
+}
+
+#news .right{
+    width: 30%;
+    float: right;
+    background-color: #354449;
+}
+
+#news .right{
+    padding: 15px;
+    margin-top: 15px;
+    box-sizing: border-box;    
+    font-family: sans-serif;
+    color: #fff;
+    
+}
+#news .right h5{
+    margin: 10px 0;
+}
+
+#news .right p{
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+#news .left .row{
+    margin-bottom: 20px;
+}
+
+#news .left .row .boxes{
+    background-color:#e9e9e8;
+    padding: 10px 15px;
+    border-bottom: 5px solid #fff;
+}
+
+#news .right label{
+    display: block; 
+    padding: 5px 0; 
+    font-size: 13px;  
+}
+
+#news .right input, textarea{
+    width: 100%;
+    padding: 5px 0;
+    display: inline-block;
+    
+}
+
+.active{
+    color: #CE573B !important;
+}
+
+
+
+@media (min-width: 345px)and(max-width:540px){
+   #header{
+       height:40px;
+   }
+    #header h2{
+       font-size: 19px;
+   }
+   .navbar{
+       padding-top: 10px;
+   }
+   .navbar li a{
+       padding: 8px 4px;
+   }
+   #newslatter{
+       height: 80px;
+   }
+   #newslatter .left{
+       padding: 8px 0px;
+   }
+   #newslatter .right{
+       padding-top: 0px;
+   }
+   .box img{
+       width: 50%;
+   }
+   .box h3{
+    font-size: 12px;
+    padding: 14px;
+   }
+   .box p{
+       font-size: 13px;
+   }
+   .box:nth-child(2) img {
+    width: 50%;
+   }
+   .box:nth-child(2) h3{
+       font-size: 13px;
+   }
+}
+
+@media (min-width: 541px)and(max-width:600px){
+    #header h2{
+        font-size: 24px;
+    }
+    /* .navbar li a{
+        font-size: 16px;
+    } */
+
+
+}
+
+/* @media (min-width: 601px)and(max-width:800px){
+
+    
+}
+
+@media (min-width: 801px)and(max-width:1023px){
+    
+}
+
+@media (min-width: 1024px){
+
+    
+} */
+
